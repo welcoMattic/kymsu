@@ -17,5 +17,6 @@ echo “You can hit mas upgrade to upgrade theses apps from the Mac App Store:�
 mas outdated
 echo “install with: mas upgrade”
 
-# NPM
-npm update -g
+# yarn
+yarn global upgrade
+
