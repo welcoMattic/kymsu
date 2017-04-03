@@ -15,7 +15,7 @@ Keep Your macOs Stuff Updated (KYMSU)
 ## Credits
 
 * [All contributors](https://github.com/welcomattic/kymsu/graphs/contributors)
-* Thanks to @waxzce for his [article](https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731) about keeping macOs c$
+* Thanks to [@waxzce](https://github.com/waxzce) for his [article](https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731) about keeping macOs clean!
 
 ## License
 
