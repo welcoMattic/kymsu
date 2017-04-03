@@ -5,8 +5,8 @@ Keep Your macOs Stuff Updated (KYMSU)
 
 ## Requirements
 
-- (Homebrew)[https://brew.sh/]
-- (mas)[https://github.com/mas-cli/mas]
+- [Homebrew](https://brew.sh)
+- [mas](https://github.com/mas-cli/mas)
 
 ## Installation
 
