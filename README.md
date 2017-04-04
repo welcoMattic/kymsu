@@ -10,7 +10,7 @@ Keep Your macOs Stuff Updated (KYMSU)
 
 ## Installation
 
-`$ git clone git@github.com:welcoMattic/kymsu.git && cd kysmu && cp kymsu.sh /usr/local/bin/kymsu`
+`$ git clone git@github.com:welcoMattic/kymsu.git && cd kymsu && cp kymsu.sh /usr/local/bin/kymsu`
 
 ## Credits
 
