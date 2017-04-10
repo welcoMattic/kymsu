@@ -19,3 +19,8 @@ echo “install with: mas upgrade”
 
 # NPM
 npm update -g
+
+echo "KIMSU self update"
+CURRENT=`pwd`
+cd `cat ~/.kimsu/path` && git pull
+cd $CURRENT
