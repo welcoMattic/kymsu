@@ -24,3 +24,8 @@ echo "KIMSU self update"
 CURRENT=`pwd`
 cd `cat ~/.kimsu/path` && git pull
 cd $CURRENT
+
+for f in `ls ~/.kimsu/plugins.d/*.sh`;
+do
+  bash $f
+done
