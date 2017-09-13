@@ -1,7 +1,7 @@
 # KYMSU
 Keep Your macOs Stuff Updated (KYMSU)
 
-> Get your Homebrew, Mac App Store, Atom Package Manager (apm), NPM, Yarn, ... stuff updated.
+> Get your Homebrew, Mac App Store, Atom Package Manager (apm), NPM, Yarn, Composer ... stuff updated.
 
 ## Requirements
 
@@ -13,8 +13,11 @@ Keep Your macOs Stuff Updated (KYMSU)
 `$ git clone git@github.com:welcoMattic/kymsu.git && cd kymsu && ./install.sh`
 
 ## Usage
-
+Only update all the things
 `$ kymsu`
+
+With cleanup after updates
+`$ kymsu cleanup`
 
 ## Plugins system
 
