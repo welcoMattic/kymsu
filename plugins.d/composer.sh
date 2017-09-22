@@ -1,5 +1,5 @@
 #!/bin/bash
-if hash composer 2>/dev/null: then
+if hash composer 2>/dev/null; then
   echo "🎼  Composer"
   composer global update
   echo ""
