@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "🍺  Homebrew"
 brew update
 brew upgrade

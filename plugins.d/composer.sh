@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 if hash composer 2>/dev/null; then
   echo "🎼  Composer"
   composer global update

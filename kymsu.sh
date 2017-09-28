@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "Please, grab a ☕️ , KYMSU keep your working environment up to date!"
 echo "=============================================================="
 echo ""
