@@ -7,4 +7,4 @@ ln -s `pwd`/kymsu.sh /usr/local/bin/kymsu
 mkdir ~/.kymsu && echo "`pwd`" > ~/.kymsu/path
 cp -R `pwd`/plugins.d ~/.kymsu
 
-echo "KYMSU was installed. Run kymsu command!"
+echo "KYMSU has been installed. Run kymsu command!"
