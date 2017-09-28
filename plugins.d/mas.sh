@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "🍏  Mac App Store updates come fast as lightning"
 mas outdated
 echo ""

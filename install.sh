@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Make Kymsu accessible in PATH
 ln -s `pwd`/kymsu.sh /usr/local/bin/kymsu
