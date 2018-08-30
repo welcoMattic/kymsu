@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 if hash npm 2>/dev/null; then
-    echo "💊 Upgrade npm itself"
+    echo "💊  Upgrade npm itself"
     npm install npm@latest -g
     echo ""
 
-    echo "🔊 npm list global outdated"
+    echo "🔊  npm list global outdated"
     npm outdated -g --depth=0
     echo ""
 
-    echo "📦 npm upgrade running ..."
+    echo "📦  npm upgrade running ..."
     npm update -g
     echo ""
 
