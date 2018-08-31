@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 if [ -d "~/.nvm" ]; then
+
+  echo "🔀 Upgrading NVM (node version manager"
   export CURRENT_PWD=`pwd`
 
   git fetch --tags
