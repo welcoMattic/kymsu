@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "Please, grab a ☕️ , KYMSU keep your working environment up to date!"
+echo "Please, grab a ☕️, KYMSU keep your working environment up to date!"
 
 MAX_WIDTH=50
 CURRENT_WIDTH=$(tput cols)
