@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "🍏  Mac App Store updates come fast as lightning"
 # only ask about `mas upgrade` if `mas outdated` returns something
-if [ ! -z $(mas outdated) ]; then
+if [ ! -z "$(mas outdated)" ]; then
   mas outdated
   echo ""
   read -p "Do you wanna run mas upgrade? (y/n)" choice
