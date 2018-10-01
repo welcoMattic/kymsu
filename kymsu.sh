@@ -6,4 +6,10 @@ CURRENT_WIDTH=$(tput cols)
 COLUMNS=$(( CURRENT_WIDTH > MAX_WIDTH ? MAX_WIDTH : CURRENT_WIDTH ))
 printf '%*s\n' "${COLUMNS}" '' | tr ' ' =
 
-[ -d ~/.kymsu/plugins.d -a -x ~/.kymsu/plugins.d ] && find -s ~/.kymsu/plugins.d -type f -name '*.sh' -perm +u+x -exec bash -c {} ${1:no-cleanup} \;
+SCRIPTS_DIR=$(cat ~/.kymsu/path)/plugins.d
+
+for script in $(ls $SCRIPTS_DIR); do
+  if [ -x "$SCRIPTS_DIR/$script" ]; then
+    $SCRIPTS_DIR/$script $@
+  fi
+done
