@@ -1,4 +1,4 @@
-# KYMSU
+# KYMSU (Keep Your macOs Stuff Updated)
 Keep Your macOs Stuff Updated (KYMSU)
 
 > Get your Homebrew, Mac App Store, Atom Package Manager (apm), NPM, Yarn, Composer ... stuff updated.
