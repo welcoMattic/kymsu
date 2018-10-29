@@ -14,6 +14,5 @@ if hash brew 2>/dev/null; then
   if [[ $1 == "cleanup" ]]; then
     echo "🌬  Cleaning brewery"
     brew cleanup -s
-    brew cask cleanup
   fi
 fi
