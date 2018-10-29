@@ -5,7 +5,7 @@ if hash composer 2>/dev/null; then
   echo ""
 
   if [[ $1 == "cleanup" ]]; then
-    echo "🌬  Cleaning concert hall"
+    echo "🌬   Cleaning concert hall"
     composer clearcache
   fi
 fi

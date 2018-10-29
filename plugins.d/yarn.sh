@@ -5,7 +5,7 @@ if hash yarn 2>/dev/null; then
   echo ""
 
   if [[ $1 == "cleanup" ]]; then
-    echo "🌬  Cleaning yarn cache"
+    echo "🌬   Cleaning yarn cache"
     yarn cache clean
   fi
 fi
