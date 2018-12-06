@@ -22,6 +22,6 @@ if hash npm 2>/dev/null; then
     echo "🔍   Verifying npm cache"
     npm cache verify
 
-    echo "🌬   Running npm health check"
+    echo "👨‍⚕️   Running npm health check"
     npm doctor
 fi
