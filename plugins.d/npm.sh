@@ -19,7 +19,7 @@ if hash npm 2>/dev/null; then
       fi
     fi
 
-    echo "🌬   Verifying npm cache"
+    echo "🔍   Verifying npm cache"
     npm cache verify
 
     echo "🌬   Running npm health check"
