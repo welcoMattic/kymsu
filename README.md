@@ -1,6 +1,8 @@
 # KYMSU
 Keep Your macOs Stuff Updated (KYMSU)
 
+⚠ As I'm not working on macOS anymore, this repo is not actively maintained. Feel free to open PRs to fix something, I'll try to review and merge as often as I can.
+
 > Get your Homebrew, Mac App Store, Atom Package Manager (apm), npm, yarn, composer, rustup ... stuff updated.
 
 ## Requirements
